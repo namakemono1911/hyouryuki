@@ -1,0 +1,99 @@
+﻿2017/02/16 13:04:49 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\spicywolf\Google ドライブ\DX22_課題07\DX21_01.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "Release\DX21_01.unsuccessfulbuild" のタッチ タスクを実行しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt billboard.cpp bird.cpp camera.cpp craft.cpp fade.cpp game.cpp hit.cpp input.cpp item.cpp keyOpe.cpp main.cpp meshDome.cpp meshField.cpp meshWall.cpp model.cpp particle.cpp polygon.cpp render.cpp right.cpp rock.cpp spear.cpp title.cpp vector.cpp wood.cpp
+         billboard.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         bird.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>bird.cpp(135): warning C4154: 配列の delete が定義されていません。配列は、ポインターに変換されます。
+         camera.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         craft.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         fade.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         game.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         hit.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         input.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         item.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         keyOpe.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         main.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         meshDome.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         meshField.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         meshWall.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         model.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         particle.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         polygon.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         render.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         right.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         rock.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>rock.cpp(136): warning C4154: 配列の delete が定義されていません。配列は、ポインターに変換されます。
+         コンパイル中...
+         spear.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         title.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>title.cpp(115): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+     1>title.cpp(115): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+     1>title.cpp(144): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         vector.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         wood.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>wood.cpp(134): warning C4154: 配列の delete が定義されていません。配列は、ポインターに変換されます。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\spicywolf\Google ドライブ\DX22_課題07\\DX21_01.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DX21_01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\spicywolf\Google ドライブ\DX22_課題07\DX21_01.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\spicywolf\Google ドライブ\DX22_課題07\\DX21_01.lib" /MACHINE:X86 Release\billboard.obj
+         Release\bird.obj
+         Release\camera.obj
+         Release\craft.obj
+         Release\fade.obj
+         Release\game.obj
+         Release\hit.obj
+         Release\input.obj
+         Release\item.obj
+         Release\keyOpe.obj
+         Release\main.obj
+         Release\meshDome.obj
+         Release\meshField.obj
+         Release\meshWall.obj
+         Release\model.obj
+         Release\particle.obj
+         Release\polygon.obj
+         Release\render.obj
+         Release\right.obj
+         Release\rock.obj
+         Release\spear.obj
+         Release\title.obj
+         Release\vector.obj
+         Release\wood.obj
+         コード生成しています。
+         コード生成が終了しました。
+         DX21_01.vcxproj -> C:\Users\spicywolf\Google ドライブ\DX22_課題07\\DX21_01.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\spicywolf\Google ドライブ\DX22_課題07\\DX21_01.exe;#1" /manifest Release\DX21_01.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\DX21_01.unsuccessfulbuild" を削除しています。
+         "Release\DX21_01.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\spicywolf\Google ドライブ\DX22_課題07\DX21_01.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:15.01

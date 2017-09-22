@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム">
+      <UniqueIdentifier>{d7468d07-6f98-47fa-96d6-f6f1a71a27e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム">
+      <UniqueIdentifier>{2cfd5972-6532-41bc-bc60-98057d83ecd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\モデル">
+      <UniqueIdentifier>{8885ef9c-c3db-45bc-be6b-dd0c0a55b176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム\フィールド">
+      <UniqueIdentifier>{2ba5f011-5baa-4220-a83b-c6f55ff5c85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\環境設定">
+      <UniqueIdentifier>{6f6572a8-8d11-4363-8856-d2f8c149a0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\演出">
+      <UniqueIdentifier>{7dd26522-01f4-4234-b869-bbfae15f9576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\モデル">
+      <UniqueIdentifier>{d66f0c62-4b82-4809-9d06-a5a32c835237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム\フィールド">
+      <UniqueIdentifier>{18f1445a-cd92-4a2a-9e5a-88295a1bc06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\環境設定">
+      <UniqueIdentifier>{026a9740-6c5e-4ecc-b1ac-5705eb8c1860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\演出">
+      <UniqueIdentifier>{7112559f-e21f-4fc8-b2e2-ae597d571fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\タイトル">
+      <UniqueIdentifier>{9840c5db-8b0b-4a96-a546-551a78b5b46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\リザルト">
+      <UniqueIdentifier>{7d6c2ec5-2037-43b6-af6c-13c6a45435f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\タイトル">
+      <UniqueIdentifier>{e990cd80-e79e-44a6-9a1d-e9fc389a722e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\リザルト">
+      <UniqueIdentifier>{26081365-6072-4080-8ef6-64ab66932932}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="craft.cpp">
+      <Filter>ソース ファイル\ゲーム\モデル</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.cpp">
+      <Filter>ソース ファイル\ゲーム\モデル</Filter>
+    </ClCompile>
+    <ClCompile Include="spear.cpp">
+      <Filter>ソース ファイル\ゲーム\モデル</Filter>
+    </ClCompile>
+    <ClCompile Include="wood.cpp">
+      <Filter>ソース ファイル\ゲーム\モデル</Filter>
+    </ClCompile>
+    <ClCompile Include="rock.cpp">
+      <Filter>ソース ファイル\ゲーム\モデル</Filter>
+    </ClCompile>
+    <ClCompile Include="meshDome.cpp">
+      <Filter>ソース ファイル\ゲーム\フィールド</Filter>
+    </ClCompile>
+    <ClCompile Include="meshWall.cpp">
+      <Filter>ソース ファイル\ゲーム\フィールド</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>ソース ファイル\ゲーム\フィールド</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\ゲーム\モデル</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\環境設定</Filter>
+    </ClCompile>
+    <ClCompile Include="right.cpp">
+      <Filter>ソース ファイル\環境設定</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル\演出</Filter>
+    </ClCompile>
+    <ClCompile Include="keyOpe.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\環境設定</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>ソース ファイル\環境設定</Filter>
+    </ClCompile>
+    <ClCompile Include="hit.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.h">
+      <Filter>ヘッダー ファイル\ゲーム\モデル</Filter>
+    </ClInclude>
+    <ClInclude Include="rock.h">
+      <Filter>ヘッダー ファイル\ゲーム\モデル</Filter>
+    </ClInclude>
+    <ClInclude Include="wood.h">
+      <Filter>ヘッダー ファイル\ゲーム\モデル</Filter>
+    </ClInclude>
+    <ClInclude Include="spear.h">
+      <Filter>ヘッダー ファイル\ゲーム\モデル</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\ゲーム\モデル</Filter>
+    </ClInclude>
+    <ClInclude Include="meshDome.h">
+      <Filter>ヘッダー ファイル\ゲーム\フィールド</Filter>
+    </ClInclude>
+    <ClInclude Include="meshWall.h">
+      <Filter>ヘッダー ファイル\ゲーム\フィールド</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル\ゲーム\フィールド</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ヘッダー ファイル\演出</Filter>
+    </ClInclude>
+    <ClInclude Include="right.h">
+      <Filter>ヘッダー ファイル\環境設定</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>ヘッダー ファイル\環境設定</Filter>
+    </ClInclude>
+    <ClInclude Include="keyOpe.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\環境設定</Filter>
+    </ClInclude>
+    <ClInclude Include="craft.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\環境設定</Filter>
+    </ClInclude>
+    <ClInclude Include="hit.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\タイトル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,66 @@
+﻿2017/02/28 12:53:41 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\spicywolf\Desktop\授業内容\DX22\実験記録\被検体No.004\DX21_01.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\DX21_01.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bird.cpp game.cpp hit.cpp model.cpp rock.cpp
+         hit.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\spicywolf\desktop\授業内容\dx22\実験記録\被検体no.004\hit.cpp(274): warning C4101: 'numFace' : ローカル変数は 1 度も使われていません。
+     1>c:\users\spicywolf\desktop\授業内容\dx22\実験記録\被検体no.004\hit.cpp(275): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+         コードを生成中...
+     1>c:\users\spicywolf\desktop\授業内容\dx22\実験記録\被検体no.004\hit.cpp(932): warning C4715: 'hitBoxLine' : 値を返さないコントロール パスがあります。
+         コンパイル中...
+         rock.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\spicywolf\desktop\授業内容\dx22\実験記録\被検体no.004\rock.cpp(142): warning C4154: 配列の delete が定義されていません。配列は、ポインターに変換されます。
+         model.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         game.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         bird.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\spicywolf\desktop\授業内容\dx22\実験記録\被検体no.004\bird.cpp(136): warning C4154: 配列の delete が定義されていません。配列は、ポインターに変換されます。
+         コードを生成中...
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\spicywolf\Desktop\授業内容\DX22\実験記録\被検体No.004\\DX21_01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DX21_01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\spicywolf\Desktop\授業内容\DX22\実験記録\被検体No.004\DX21_01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\spicywolf\Desktop\授業内容\DX22\実験記録\被検体No.004\\DX21_01.lib" /MACHINE:X86 Debug\DX21_01.exe.embed.manifest.res
+         Debug\billboard.obj
+         Debug\bird.obj
+         Debug\camera.obj
+         Debug\craft.obj
+         Debug\fade.obj
+         Debug\game.obj
+         Debug\hit.obj
+         Debug\input.obj
+         Debug\item.obj
+         Debug\keyOpe.obj
+         Debug\main.obj
+         Debug\meshDome.obj
+         Debug\meshField.obj
+         Debug\meshWall.obj
+         Debug\model.obj
+         Debug\particle.obj
+         Debug\polygon.obj
+         Debug\render.obj
+         Debug\right.obj
+         Debug\rock.obj
+         Debug\spear.obj
+         Debug\title.obj
+         Debug\vector.obj
+         Debug\wood.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DX21_01.exe.embed.manifest" /manifest Debug\DX21_01.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         DX21_01.vcxproj -> C:\Users\spicywolf\Desktop\授業内容\DX22\実験記録\被検体No.004\\DX21_01.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\DX21_01.unsuccessfulbuild" を削除しています。
+         "Debug\DX21_01.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\spicywolf\Desktop\授業内容\DX22\実験記録\被検体No.004\DX21_01.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.28
